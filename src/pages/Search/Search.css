@@ -1,0 +1,11 @@
+.search-page {
+    max-width: 1240px;
+    text-align: center;
+    margin: 48px auto 0 auto;
+}
+
+.search-page h2 {
+    font-size: 32px;
+    color: rebeccapurple;
+    margin-bottom: 24px;
+}

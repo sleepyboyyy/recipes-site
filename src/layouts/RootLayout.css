@@ -1,0 +1,40 @@
+.root-layout {
+    background: rebeccapurple;
+}
+
+.root-layout .navContainer {
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 24px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.root-layout h2 a {
+    font-size: 32px;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.root-layout .navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.root-layout .navContent a {
+    background: rebeccapurple;
+    font-size: 18px;
+    border: 2px solid #f1f1f1;
+    color: #f1f1f1;
+    border-radius: 2px;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.root-layout .navContent a:hover {
+    background: #f1f1f1;
+    color: rebeccapurple;
+}

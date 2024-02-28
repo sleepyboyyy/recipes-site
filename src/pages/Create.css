@@ -1,0 +1,73 @@
+.create-page {
+    max-width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.create-page h2 {
+    color: rebeccapurple;
+    font-size: 38px;
+    margin: 14px 0 32px 0;
+}
+
+.create-page label {
+    display: block;
+    margin: 12px auto;
+    width: 320px;
+}
+
+.create-page label input {
+    padding: 10px 16px;
+    width: 100%;
+    border: 1px solid rebeccapurple;
+    border-radius: 3px;
+    outline: none;
+}
+
+.create-page label .ingredientsInput {
+    width: 77.5%;
+}
+
+.create-page .ingTracker {
+    color: grey;
+    text-align: left;
+    margin-top: 3px;
+}
+
+.create-page label button {
+    padding: 10px 16px;
+    margin-left: 12px;
+    background: #fff;
+    border: 1px solid rebeccapurple;
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+.create-page label span {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: #735094;
+}
+
+.create-page label textarea {
+    resize: none;
+    width: 100%;
+    padding: 10px 16px;
+    font-family: Arial, serif;
+    height: 150px;
+    border: 1px solid rebeccapurple;
+    border-radius: 8px;
+    outline: none;
+}
+
+.create-page .submitBtn {
+    width: 320px;
+    padding: 14px 0;
+    font-size: 18px;
+    color: #fff;
+    background: rebeccapurple;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

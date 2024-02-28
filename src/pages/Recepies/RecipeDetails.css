@@ -1,0 +1,30 @@
+.recipe-details {
+    max-width: 1240px;
+    margin: 48px auto 0 auto;
+    padding: 40px 60px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.recipe-details h2 {
+    font-size: 32px;
+    margin-top: 40px;
+    color: rebeccapurple;
+}
+
+.recipe-details .time {
+    margin: 8px 0 4px 0;
+    color: purple;
+    font-size: 18px;
+}
+
+.recipe-details .ingredients {
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 32px;
+}
+
+.recipe-details .desc {
+    text-align: left;
+    margin-bottom: 40px;
+}
