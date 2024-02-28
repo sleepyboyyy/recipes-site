@@ -6,10 +6,18 @@
     text-align: center;
 }
 
+.recipe-details.dark {
+    background: #4e4e4e;
+}
+
 .recipe-details h2 {
     font-size: 32px;
     margin-top: 40px;
     color: rebeccapurple;
+}
+
+.recipe-details.dark h2 {
+    color: #e583e5;
 }
 
 .recipe-details .time {
@@ -18,13 +26,23 @@
     font-size: 18px;
 }
 
+.recipe-details.dark .time {
+    color: plum;
+}
+
 .recipe-details .ingredients {
     color: grey;
     font-size: 12px;
     margin-bottom: 32px;
 }
+.recipe-details.dark .ingredients {
+    color: #f8f8f8;
+}
 
 .recipe-details .desc {
     text-align: left;
     margin-bottom: 40px;
+}
+.recipe-details.dark .desc {
+    color: #f2f2f2;
 }

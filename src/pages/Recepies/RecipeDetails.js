@@ -4,12 +4,14 @@ import {useLoaderData} from "react-router-dom";
 //Stylesheet
 
 import './RecipeDetails.css';
+import {useTheme} from "../../API/useTheme";
 
 function RecipeDetails(props) {
     const recipe = useLoaderData();
+    const {mode} = useTheme();
 
     return (
-        <div className="recipe-details">
+        <div className={`recipe-details ${mode}`}>
             <h2>{recipe.title}</h2>
             <p className="time">Takes {recipe.cookingTime} minutes to cook</p>
             <p className="ingredients">

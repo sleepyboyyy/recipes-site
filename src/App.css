@@ -1,0 +1,8 @@
+.app {
+    background: #e3e3e3;
+    min-height: 100%;
+}
+
+.app.dark {
+    background: #2e2e2e;
+}

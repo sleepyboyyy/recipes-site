@@ -15,11 +15,12 @@ import RecipeDetails, {recipeDetailLoader} from "./pages/Recepies/RecipeDetails"
 import Create from "./pages/Create";
 import Search from "./pages/Search/Search";
 import Home from "./pages/Home";
+import {useTheme} from "./API/useTheme";
 
 //Done Recipe components
 //Done Create recipe page (Adding a list of ingredients*)
 //Done Recipe details page
-//Todo add searchbar and behaviour
+//Done add searchbar and behaviour
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -46,9 +47,14 @@ const router = createBrowserRouter(
 )
 
 function App() {
-  return (
-    <RouterProvider router={router}/>
-  );
+    const { mode } = useTheme();
+
+    return (
+        <div className={`app ${mode}`}>
+            <RouterProvider router={router}/>
+        </div>
+
+    );
 }
 
 export default App;

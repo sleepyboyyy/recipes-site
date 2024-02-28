@@ -21,6 +21,11 @@
     margin-bottom: 24px;
 }
 
+.recipes.dark .recipe-card {
+    background: #5e5e5e;
+    color: #e583e5;
+}
+
 .recipes .recipe-card h3 {
     font-size: 24px;
 }
@@ -33,5 +38,9 @@
 .recipes .recipe-card .desc {
     color: #9d7ece;
     margin-bottom: 14px;
+}
+
+.recipes.dark .recipe-card .desc {
+    color: #d7bdff;
 }
 

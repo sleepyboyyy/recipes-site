@@ -1,3 +1,5 @@
+
+
 .root-layout {
     background: rebeccapurple;
 }
@@ -25,7 +27,7 @@
 }
 
 .root-layout .navContent a {
-    background: rebeccapurple;
+    background: none;
     font-size: 18px;
     border: 2px solid #f1f1f1;
     color: #f1f1f1;
